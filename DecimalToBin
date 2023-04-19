@@ -1,0 +1,14 @@
+class DecimalToBin{
+          public static void main(String[] args) {
+                    int pw = 1;
+                    int ans = 0;
+                    int decimal = 101;
+                    while(decimal > 0){
+                    int parity  = decimal%2;//remainder
+                    ans = ans + (parity*pw);
+                    decimal = decimal/2;
+                    pw = pw*10;   
+                    }
+                    System.out.println("After conversino : "+ans);
+          }
+}
