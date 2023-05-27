@@ -1,10 +1,10 @@
 //count strictly greater than a key element
-public class coutStrictlyGreater {
+public class countStrictlyGreater {
     public static void countgreater(int arr[] , int key){
          int count = 0 ;
          for(int i = 0 ; i<arr.length;i++){
           if(arr[i] > key){
-              count++;
+               count++;
           }
          }
          System.out.println("The number of sticly greater element is :"+count);
