@@ -1,4 +1,4 @@
-package Day1;
+package DayOne;
 //brute force approach
 class ZeroOne {
           static int count = 0;

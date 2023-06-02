@@ -1,4 +1,4 @@
-package Day1;
+package DayOne;
 public class ZeroOneSorting2 {
           // optimal approach
           static void swap(int arr[], int left, int right) {

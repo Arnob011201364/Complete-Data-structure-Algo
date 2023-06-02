@@ -1,4 +1,4 @@
-package Day1;
+package DayOne;
 import java.util.Arrays;
 public class EvenOddSorting {
           static void swap(int arr[],int left , int right ){
